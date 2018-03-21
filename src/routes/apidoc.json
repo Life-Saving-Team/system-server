@@ -1,0 +1,19 @@
+{
+    "name": "Life Saving API Docs",
+    "version": "2.0.0",
+    "description": "Note: In some of the apis the parent return object in the this documentation would not appear explicitly. For Example, in this doc when you find a return object named questions with a type of Object[], the response could be only an array without being wraped by a questions key. Also note that the _id could be included in the actual response without being explicitly mentioned in the doc",
+    "title": "Life Saving API Docs",
+    "order": [
+        "UserData",
+        "Administrative",
+        "UserLogin",
+        "AdminLogin",
+        "Define",
+        "PostTitleAndError",
+        "PostError"
+    ],
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
